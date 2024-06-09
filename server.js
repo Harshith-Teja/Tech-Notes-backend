@@ -54,8 +54,3 @@ mongoose.connection.on('error', err => {
     console.log(err);
     logEvents(`${err.no}: ${err.code}\t ${err.syscall}\t ${err.hostname}`, 'mongoErrLog.log')
 })
-/*
-    pswd: hfMCz8YhMpZ40vcL
-    connection string: mongodb+srv://harshithteja:hfMCz8YhMpZ40vcL@cluster0.yguhcrb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-    connection string: mongodb+srv://harshithteja:<password>@cluster0.yguhcrb.mongodb.net/
-*/
