@@ -21,7 +21,7 @@ const noteSchema = new mongoose.Schema({
         }
     },
     {
-        timeStamps: true //by setting this to true, mongodb lets us to use create & update timeStamp
+        timestamps: true //by setting this to true, mongodb lets us to use create & update timeStamp
     }
 )
 

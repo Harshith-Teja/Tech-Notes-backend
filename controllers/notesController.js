@@ -7,7 +7,7 @@ const asyncHandler = require('express-async-handler')
 // @acess Private
 const getAllNotes = asyncHandler( async (req, res) => {
     //Get all notes
-    const notes = await Note.find().lean().exec();
+    const notes = await Note.find().lean()
 
     //if no notes
     if(!notes?.length)
